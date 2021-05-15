@@ -1,13 +1,15 @@
 import React, {useState, useCallback} from 'react';
 import './App.css';
-import introPage from './components/introPage'
+import IntroPage from './components/introPage'
+import Navbar from './components/navbar'
+
 
 function App () {
   return (
-    <div className="text-center">
-    
-      {introPage()}
-    </div>
+  <div>
+    <Navbar/>
+    <IntroPage/>
+  </div>
   );
 }
 
