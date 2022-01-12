@@ -1,8 +1,8 @@
 // import "./styles.css";
 import React, { FunctionComponent } from "react";
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from "recharts";
-import { scaleOrdinal } from "d3-scale";
-import { schemeCategory10 } from "d3-scale-chromatic";
+// import { scaleOrdinal } from "d3-scale";
+// import { schemeCategory10 } from "d3-scale-chromatic";
 //https://codesandbox.io/s/color-each-bar-differently-devextreme-charts-forked-lewf7?file=/App.js
 
 

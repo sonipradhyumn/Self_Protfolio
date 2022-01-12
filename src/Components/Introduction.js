@@ -73,7 +73,7 @@ function Image() {
                     <div className=" absolute bottom-8   flex justify-center  items-end  h-32 w-36 box  ">
                         {/* <span className='px-2 hide text-lg font-serif font-semibold bg-gray-900'>My Resume</span> */}
                         {/* <div className="  arrowtest-south"></div> */}
-                        <div class="resumeArrow  ">
+                        <div className="resumeArrow  ">
                             <span></span>
                             <span></span>
                             <span></span>

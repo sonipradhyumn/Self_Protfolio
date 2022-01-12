@@ -9,9 +9,9 @@ function Projects() {
             <div className='flex justify-betweens items-center'>
                 {Projects.map(
 
-                    (project) => {
+                    (project, key) => {
                         return (
-                            <div className='h-32 w-32 m-10 bg-green-100 flex items-center justify-center rounded-full'>
+                            <div key={key} className='h-32 w-32 m-10 bg-green-100 flex items-center justify-center rounded-full'>
                                 {project}
                             </div>
                         )
