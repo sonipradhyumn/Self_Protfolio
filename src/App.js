@@ -1,20 +1,43 @@
-import React, {useState, useCallback} from 'react';
-import {Link, BrowserRouter ,useHistory} from 'react-router-dom';
+import logo from './logo.svg';
+// import { Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Redirect, Routes } from 'react-router-dom';
+// import Homepage from './Components/home'
+// import Upload from './Components/upload'
+// import NewLabel from './Components/addNewLabel'
+// import Labeling from './Components/labeling'
+// import Navigation from './Components/navigation'
+// import Footer from './Components/footer'
+import Home from './Home'
+import Header from './Components/Header'
+import Introduction from './Components/Introduction'
+import AboutMe from './Components/AboutMe'
 
 import './App.css';
-import IntroPage from './components/introPage'
-import Navbar from './components/navbar'
 
 
-function App () {
-  return (
-  <div>
-  <BrowserRouter>
-    <Navbar/>
-    <IntroPage/>
-  </BrowserRouter>
+
+// npm i react-animated-text 
+// tree----
+
+function App() {
+  return (<div>
+
+    <BrowserRouter>
+      {/* <Navigation /> */}
+      {/* <Header /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={< Header />} />
+        {/* <Route path="/" caseSensitive={false} element={<Home />} /> */}
+      </Routes>
+      {/* <Footer /> */}
+    </BrowserRouter>
+
+
   </div>
-  );
+  )
+
 }
 
 export default App;
+
