@@ -26,7 +26,7 @@ function App() {
       {/* <Navigation /> */}
       {/* <Header /> */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Self_Protfolio" element={<Home />} />
         <Route path="/register" element={< Header />} />
         {/* <Route path="/" caseSensitive={false} element={<Home />} /> */}
       </Routes>
